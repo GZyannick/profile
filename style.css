@@ -1,0 +1,161 @@
+body{
+  position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        height: 100%;
+    margin:0;
+    padding:0;
+    background-size: 100% ;
+    width:100%;
+    background-image: url('./images/stonk.jpg');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&family=Roboto+Mono:wght@400;700&display=swap');
+
+
+
+
+.card{
+  color: white;
+  padding: 50px;
+  margin-top: 100px;
+  position: relative;
+  border-radius: 5px;
+  background-color: #2E4057;
+  box-shadow: 0 0 75px rgb(180, 245, 2);
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+p, a {
+  padding: 16px 32px;
+  font-family: 'Roboto Mono', monospace;
+}
+p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.avatar-circle {
+  border: 5px #2E4057 solid;
+  z-index: 25;
+  position: absolute;
+
+  
+  border-radius: 50%;
+}
+.big{
+  width: 150px;
+  height: 150px;
+}
+.medium{
+  width: 128px;
+  height: 128px;
+}
+.small{
+  width: 108px;
+  height: 108px;
+}
+.top-left{
+top: -40px;
+left: -40px;
+}
+.top-right{
+top: -40px;
+right: -40px;
+}
+.bottom-left{
+bottom: -40px;
+left: -40px;
+}
+.bottom-right{
+bottom: -40px;
+right: -40px;
+}
+#ul-middle{
+  text-align:center;display:block;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  text-align: center;
+}
+.btn-green{
+  margin: 0 auto;
+  background-color: #C0D684;
+  padding: 8px;
+  text-align: center;
+  display:inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  border: 2px #C0D684 solid;
+  transition: 1s ;
+}
+.btn-green:hover{
+  background-color: #2E4057;
+  color: white;
+}
+.list-social{
+  display: inline-block;
+  
+}
+.size-medium{
+ font-size: 50px;
+ 
+}
+.padding-medium{
+  padding: 10px 10px;
+}
+.padding-small{
+  margin-top: -15px;
+  padding: 0 10px;
+}
+.header{
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  height: 50px;
+  background-color: #4F1271;
+  color: white;
+  box-shadow: 15px 0px 30px rgb(187, 255, 0);
+}
+
+.left-box{
+ position: absolute;
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  left: 5px;
+  border-radius: 25%;
+  background-color: #2E4057;
+  color: white;
+}
+.left-box h2{
+padding-top: 25px;
+}
+.card:hover{
+  z-index: 250;
+  transition: 2s;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FAC05E;
+}
+
+.iframe{
+  width: 960;
+  height: 540;
+}
+.img-kevin{
+  height: 0;
+}
+
+.card:hover.img-kevin{
+  height: 500;
+}
