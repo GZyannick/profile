@@ -24,6 +24,7 @@ body{
   box-shadow: 0 0 75px rgb(180, 245, 2);
   width: 500px;
   margin: 0 auto;
+  text-align: center;
   margin-top: 100px;
 }
 
@@ -153,9 +154,19 @@ padding-top: 25px;
   height: 540;
 }
 .img-kevin{
-  height: 0;
+  height: 0px;
 }
 
-.card:hover.img-kevin{
-  height: 500;
+
+.card:hover .img-kevin{
+  height: 800px;
+}
+.stonks{
+  display: none;
+  margin-top: 50px;
+  opacity: 0;
+}
+.card:hover .stonks{
+  display: inline-block;
+  opacity: 1;
 }
